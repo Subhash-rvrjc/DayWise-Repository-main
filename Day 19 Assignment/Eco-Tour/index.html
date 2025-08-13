@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoTour – Explore Nature</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="branding">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Tree_icon_-_Noun_Project_251.svg/512px-Tree_icon_-_Noun_Project_251.svg.png" alt="EcoTour Logo" class="logo">
+            <h1>EcoTour – Explore Nature</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h2>Discover the Beauty of Nature</h2>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About EcoTour</h2>
+        <p>EcoTour is dedicated to promoting sustainable travel experiences that let you explore the wonders of nature while preserving the environment. From lush forests to crystal-clear lakes, our mission is to connect you with breathtaking destinations responsibly.</p>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery">
+        <h2>Travel Gallery</h2>
+        <div class="gallery-grid">
+            <img src="https://source.unsplash.com/400x300/?forest" alt="Forest">
+            <img src="https://source.unsplash.com/400x300/?mountains" alt="Mountains">
+            <img src="https://source.unsplash.com/400x300/?lake" alt="Lake">
+            <img src="https://source.unsplash.com/400x300/?wildlife" alt="Wildlife">
+            <img src="https://source.unsplash.com/400x300/?beach" alt="Beach">
+            <img src="https://source.unsplash.com/400x300/?desert" alt="Desert">
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label>Email:</label>
+            <input type="email" name="email" required>
+
+            <label>Preferred Tour Type:</label>
+            <div class="radio-group">
+                <label><input type="radio" name="tour" value="adventure" required> Adventure</label>
+                <label><input type="radio" name="tour" value="relaxation"> Relaxation</label>
+                <label><input type="radio" name="tour" value="wildlife"> Wildlife</label>
+            </div>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Follow us on:</p>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook" aria-hidden="true"></i></a>
+            <a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+            <a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+        </div>
+        <p>&copy; 2025 EcoTour. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
